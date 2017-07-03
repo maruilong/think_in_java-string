@@ -1,0 +1,9 @@
+今天开始阅读thing_in_java的第十二章 String篇
+刚刚结束了exception的阅读 感觉对自己的帮助不是特别大
+
+#开始阅读
+    String 的 + 和+= 是java中仅有的两个重载过的操作符 而java不允许程序员重载操作符
+    
+          在使用javac编译的时候 发现当注释里面有中文的时候不能编译通过,这时候要在javac后面加上  -encoding UTF8 可以解决问题
+          
+    ArrayListDisplay 运用了第10章节的内容一个类实现了Iterable 就可以在foreach里面当作查询元素
