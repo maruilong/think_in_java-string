@@ -24,10 +24,10 @@ public class WebSpider {
         URLConnection urlconn = null;
         BufferedReader br = null;
         PrintWriter pw = null;
-        String regex = "http://[\\w+\\.?/?]+\\.[A-Za-z]+";
+        String regex = ".js+";
         Pattern p = Pattern.compile(regex);
         try {
-            url = new URL("http://www.bilibili.com");
+            url = new URL("http://www.itliusir.com/");
             urlconn = url.openConnection();
             pw = new PrintWriter(new FileWriter("d:/url.txt"), true);// 这里我们把收集到的链接存储在了E盘底下的一个叫做url的txt文件中
             br = new BufferedReader(new InputStreamReader(
