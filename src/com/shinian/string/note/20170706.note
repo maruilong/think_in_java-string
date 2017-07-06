@@ -16,5 +16,18 @@ fing(int i) 从第I个字母开始 查找对应的位置
     组0 代表整个表达式 组1 代表第一个被()括起来的表达式
     A(B(C)))D
     在这里面 有三个组 分别为 ABCD(0) BC(1) C(2)
-     
+因为编程思想的作者拿这不知道什么书上的句子进行测试,所以我选择跳过了那部分
+
+split(CharSequece input)
+split(CharSequece input,int limit)
+    split() 方法将输入字符串断开成字符串对象数组,断开边界由下列正则表达式确定
+    
+replaceFirst() 替换一个第一个满足条件的
+replaceAll() 替换所有满足条件的
+appendReplacement() 可以让你在替换的时候对要替换的字符串进行操作 书上的例子过于复杂所有我自己写了一个 AppendReplacementDemo
+    
+
+
+
+
   
