@@ -1,0 +1,20 @@
+正则校验顺序
+    Pattern pattern = Pattern.compile(str); //创建一个校验对象
+            Matcher matcher = pattern.matcher(args[0]); //使用这个字段对一个字符串就行校验
+            while (matcher.find()) {//可以找到多个
+                System.out.println(matcher.group() + "在" + matcher.start()
+                        + "与" + matcher.end() + "之间"); 获得匹配的开始和结束的地方
+            }
+         
+matcher 匹配这个字符串是否符合
+lookingAt 判断该字符串的开始补分是否能够匹配
+
+find() 根据正则查找对应位置
+fing(int i) 从第I个字母开始 查找对应的位置
+
+组 
+    组0 代表整个表达式 组1 代表第一个被()括起来的表达式
+    A(B(C)))D
+    在这里面 有三个组 分别为 ABCD(0) BC(1) C(2)
+     
+  
