@@ -5,4 +5,6 @@ think_in_java 第十二章String
 
 不过在think_in_java系列完结之前可能不会更新博客
 
+<font color=red>重要内容都在com.shinian.*.onte里面</font>
+
 觉得有用的点个⭐
